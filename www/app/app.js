@@ -1,9 +1,10 @@
 angular.module('starter', [
     'ionic',
-    'starter.controllers',
     'starter.services',
 
     // APP
+    'app.ctrl',
+    'tabs.ctrl',
     'login.ctrl',
     'events.ctrl',
     'friends.ctrl',
@@ -35,7 +36,8 @@ angular.module('starter', [
             .state('tab', {
                 url: "/tab",
                 abstract: true,
-                templateUrl: "app/tabs.html"
+                templateUrl: "app/tabs/tabs.html",
+                controller :"TabsCtrl"
             })
 
             .state('tab.events', {

@@ -19,22 +19,33 @@
 
     <!-- main js -->
     <script src="app/app.js"></script>
-    <script src="js/controllers.js"></script>
+    <script src="app/app.ctrl.js"></script>
     <script src="js/services.js"></script>
 
     <!-- app js -->
+    <script src="app/tabs/tabs.ctrl.js"></script>
     <script src="app/login/login.ctrl.js"></script>
     <script src="app/events/events.ctrl.js"></script>
     <script src="app/friends/friends.ctrl.js"></script>
     <script src="app/map/map.ctrl.js"></script>
 
 </head>
-<body ng-app="starter" animation="slide-left-right-ios7">
+<body ng-app="starter" animation="slide-left-right-ios7" ng-controller="AppCtrl">
 
 <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+        <button class="button button-clear button-dark" ng-click="doSomething()">
+            <i class="icon ion-ios7-gear"></i>
+        </button>
+    </ion-nav-buttons>
     <ion-nav-back-button class="button-icon icon  ion-ios7-arrow-back">
         Back
     </ion-nav-back-button>
+    <ion-nav-buttons side="right">
+        <button class="button button-clear button-assertive" ng-click="newEvent()">
+          <i class="icon ion-ios7-plus-outline"></i>
+        </button>
+    </ion-nav-buttons>
 </ion-nav-bar>
 
 <ion-nav-view></ion-nav-view>
