@@ -20,7 +20,6 @@ angular.module('app.ctrl', [])
         $scope.createEvent = function () {
             console.log("event created");
             $scope.modal.hide();
-        }
-
+        };
 
     });
