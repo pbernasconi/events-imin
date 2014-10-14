@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platforms/ios/events-app/events-app-Info.plist" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platforms/ios/imin/imin-Info.plist" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugins/com.phonegap.plugins.facebookconnect/plugin.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugins/com.phonegap.plugins.facebookconnect/plugin.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plugins/com.phonegap.plugins.mapkit/sample/js/MapKit.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/app/app.ctrl.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/app/app.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/app/events/events.ctrl.js" charset="UTF-8" />
@@ -10,9 +17,14 @@
     <file url="file://$PROJECT_DIR$/www/app/login/login.ctrl.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/app/login/login.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/app/map/map.ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/map/map.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/services/AuthService.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/settings/settings.ctrl.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/app/settings/settings.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/app/tabs/tabs.ctrl.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/app/tabs/tabs.html" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/www/index.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/lib/MapKit.js" charset="UTF-8" />
   </component>
 </project>
 

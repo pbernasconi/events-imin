@@ -4,11 +4,15 @@ angular.module('starter', [
 
     // APP
     'app.ctrl',
+    'settings.ctrl',
     'tabs.ctrl',
     'login.ctrl',
     'events.ctrl',
     'friends.ctrl',
-    'map.ctrl'
+    'map.ctrl',
+
+    // Services
+    'auth.service'
 
 ])
 
@@ -37,7 +41,7 @@ angular.module('starter', [
                 url: "/tab",
                 abstract: true,
                 templateUrl: "app/tabs/tabs.html",
-                controller :"TabsCtrl"
+                controller: "TabsCtrl"
             })
 
             .state('tab.events', {

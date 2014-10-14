@@ -1,0 +1,18 @@
+<ion-modal-view ng-controller="SettingsCtrl">
+    <ion-header-bar class="bar-dark">
+        <h1 class="title">Settings</h1>
+        <button class="button button-clear button-positive" ng-click="closeSettings()">
+            Close
+        </button>
+    </ion-header-bar>
+    <ion-content padding="true">
+        <div class="list">
+            <div class="item" ng-repeat="info in currentUser">
+                {{info}}
+            </div>
+        </div>
+
+        <button class="button button-block button-assertive" ng-click="logout()">Log Out</button>
+
+    </ion-content>
+</ion-modal-view>

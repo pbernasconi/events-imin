@@ -18,6 +18,9 @@
     <script src="cordova.js"></script>
 
     <!-- main js -->
+    <script src="lib/MapKit.js"></script>
+    <script src="lib/parse/build/parse-latest.js"></script>
+
     <script src="app/app.js"></script>
     <script src="app/app.ctrl.js"></script>
     <script src="js/services.js"></script>
@@ -27,23 +30,25 @@
     <script src="app/login/login.ctrl.js"></script>
     <script src="app/events/events.ctrl.js"></script>
     <script src="app/friends/friends.ctrl.js"></script>
+    <script src="app/settings/settings.ctrl.js"></script>
     <script src="app/map/map.ctrl.js"></script>
+    <script src="app/services/AuthService.js"></script>
 
 </head>
 <body ng-app="starter" animation="slide-left-right-ios7" ng-controller="AppCtrl">
 
 <ion-nav-bar class="bar-stable nav-title-slide-ios7">
-    <ion-nav-buttons side="left">
-        <button class="button button-clear button-dark" ng-click="doSomething()">
+    <ion-nav-buttons side="left" ng-if="authenticated" ng-cloak>
+        <button class="button button-clear button-dark" ng-click="openSettings()">
             <i class="icon ion-ios7-gear"></i>
         </button>
     </ion-nav-buttons>
     <ion-nav-back-button class="button-icon icon  ion-ios7-arrow-back">
         Back
     </ion-nav-back-button>
-    <ion-nav-buttons side="right">
+    <ion-nav-buttons side="right" ng-if="authenticated" ng-cloak>
         <button class="button button-clear button-assertive" ng-click="newEvent()">
-          <i class="icon ion-ios7-plus-outline"></i>
+            <i class="icon ion-ios7-plus-outline"></i>
         </button>
     </ion-nav-buttons>
 </ion-nav-bar>
