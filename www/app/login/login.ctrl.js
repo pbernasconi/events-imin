@@ -19,6 +19,11 @@ angular.module('login.ctrl', [])
                 // alert("Error logging in : " + error)
             });
 
+        };
+
+
+        $scope.loginNoFB = function () {
+            $state.go('tab.map');
         }
     });
 

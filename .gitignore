@@ -2,9 +2,8 @@
 node_modules/
 
 # Ignore xcode platforms for ios and android
-platforms/ios
-platforms/android
+platforms/
 
-## Ignore Intellij idea
+# Ignore Intellij project files
 /*.iml
 .idea/
