@@ -2,6 +2,13 @@ angular.module('map.ctrl', [])
 
     .controller('MapCtrl', function ($scope, $state) {
 
+        $scope.myLocation = "";
+
+
+        $scope.getLocation = function () {
+            
+        };
+
 
         /*
          var pins = [

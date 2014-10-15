@@ -1,0 +1,179 @@
+2014-10-14 00:26:12.162 imin[22632:1054435] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/paolob/Library/Developer/CoreSimulator/Devices/8A772856-F61B-4566-B0DD-7E344C54A504/data/Containers/Data/Application/7D8012BE-90FB-4052-8B58-519FD2673930/Library/Cookies/Cookies.binarycookies
+2014-10-14 00:26:12.210 imin[22632:1054435] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-14 00:26:12.210 imin[22632:1054435] Multi-tasking -> Device: YES, App: YES
+2014-10-14 00:26:12.216 imin[22632:1054435] Unlimited access to network resources
+2014-10-14 00:26:12.325 imin[22632:1054435] [CDVTimer][keyboard] 0.068009ms
+2014-10-14 00:26:12.325 imin[22632:1054435] Init FacebookConnect Session
+2014-10-14 00:26:12.330 imin[22632:1054435] [CDVTimer][facebookconnectplugin] 4.974961ms
+2014-10-14 00:26:12.330 imin[22632:1054435] [CDVTimer][TotalPluginStartup] 5.314946ms
+2014-10-14 00:26:12.354 imin[22632:1054435] Resetting plugins due to page load.
+2014-10-14 00:26:12.644 imin[22632:1054435] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 00:26:14.390 imin[22632:1054435] logging into facebook
+2014-10-14 00:26:14.422 imin[22632:1054435] THREAD WARNING: ['FacebookConnectPlugin'] took '31.803223' ms. Plugin should use a background thread.
+2014-10-14 00:26:16.945 imin[22632:1054435] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BAHOLocUa9izVG8GxcfF59ZClSEuRwXHeFDESp4YOyVAUENMUqyXxKIsM3ZC6eQrwS1uCi04XvoyMPaK4Mk57HY8VrFOiZAfiLUbLWQnbV0xQYJMDTy5TWTYBRYd6UsVVO4p0kZBXBFgemB1wE1JTF38Tsb9nDe5UpWCnlWSQL6rQQFNmdtOb1qOZC2sqCfggWNbQ1ufipF5xwELr4QjzY6JUUYthuEOZC0E5m27IhzWZBsnlAyZCvrZBRJhJZAMd8EIwZDZD","expiresIn":"5178950","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 00:26:19.445 imin[22632:1054435] new permissions (
+    "public_profile"
+)
+2014-10-14 00:26:19.445 imin[22632:1054435] Graph Path = me
+2014-10-14 00:26:21.474 imin[22632:1054435] opening settings
+2014-10-14 00:26:24.318 imin[22632:1054435] logout success
+2014-10-14 00:32:03.767 imin[22632:1054435] logging into facebook
+2014-10-14 00:32:05.756 imin[22632:1054435] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BAJMF3r0sPw6IETLzwZBkBqycjMHgUS3loeQwgT5K0XGmipiYEdZCt00ZBDLGy6jRpvNCt5HNJpudbKLqJFEnVmMKzm11WdaD8Q1FmMYsVkDgHDbE5ZAveIYQWE6R8qC2tcUFJ0vdwKIZBUa6gZA2oG0bRH7ZAEcI5kB7ZBfIfzZCmXJsDBMXus6A53pHEI0To1LUsZCYZAnho4PkLZCsEpmYdma1uwMs21yEJgZDZD","expiresIn":"5178601","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 00:32:08.088 imin[22632:1054435] new permissions (
+    "public_profile"
+)
+2014-10-14 00:32:08.088 imin[22632:1054435] Graph Path = me
+2014-10-14 00:35:19.206 imin[22632:1054435] Resetting plugins due to page load.
+2014-10-14 00:35:19.323 imin[22632:1054435] Finished load of: http://140.233.211.103:8100/#/tab/friends
+2014-10-14 00:40:50.735 imin[22632:1054435] Resetting plugins due to page load.
+2014-10-14 00:40:50.887 imin[22632:1054435] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 00:41:14.997 imin[22632:1054435] Resetting plugins due to page load.
+2014-10-14 00:41:15.177 imin[22632:1054435] Finished load of: http://140.233.211.103:8100/#/tab/events
+2014-10-14 00:41:16.829 imin[22632:1054435] -[NSNull objectForKey:]: unrecognized selector sent to instance 0x6816b0
+2014-10-14 00:41:16.838 imin[22632:1054435] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[NSNull objectForKey:]: unrecognized selector sent to instance 0x6816b0
+2014-10-14 00:41:17.857 imin[22632:1054435] -[NSNull objectForKey:]: unrecognized selector sent to instance 0x6816b0
+2014-10-14 00:41:17.858 imin[22632:1054435] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[NSNull objectForKey:]: unrecognized selector sent to instance 0x6816b0
+2014-10-14 00:42:08.401 imin[22632:1054435] -[NSNull objectForKey:]: unrecognized selector sent to instance 0x6816b0
+2014-10-14 00:42:08.401 imin[22632:1054435] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[NSNull objectForKey:]: unrecognized selector sent to instance 0x6816b0
+2014-10-14 00:42:09.570 imin[22632:1054435] -[NSNull objectForKey:]: unrecognized selector sent to instance 0x6816b0
+2014-10-14 00:42:09.570 imin[22632:1054435] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[NSNull objectForKey:]: unrecognized selector sent to instance 0x6816b0
+2014-10-14 00:43:54.121 imin[23222:1083746] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/paolob/Library/Developer/CoreSimulator/Devices/8A772856-F61B-4566-B0DD-7E344C54A504/data/Containers/Data/Application/35DEFE6B-0F95-4B2D-AA8E-790BA12B4A80/Library/Cookies/Cookies.binarycookies
+2014-10-14 00:43:54.421 imin[23222:1083746] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-14 00:43:54.421 imin[23222:1083746] Multi-tasking -> Device: YES, App: YES
+2014-10-14 00:43:54.437 imin[23222:1083746] Unlimited access to network resources
+2014-10-14 00:43:54.567 imin[23222:1083746] [CDVTimer][keyboard] 0.059962ms
+2014-10-14 00:43:54.567 imin[23222:1083746] Init FacebookConnect Session
+2014-10-14 00:43:54.570 imin[23222:1083746] [CDVTimer][facebookconnectplugin] 3.181040ms
+2014-10-14 00:43:54.570 imin[23222:1083746] [CDVTimer][TotalPluginStartup] 3.539026ms
+2014-10-14 00:43:54.687 imin[23222:1083746] Resetting plugins due to page load.
+2014-10-14 00:43:54.986 imin[23222:1083746] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 00:43:55.736 imin[23222:1083746] logging into facebook
+2014-10-14 00:43:57.464 imin[23222:1083746] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BALB1WAPVm9DNbOG38XCen4kzZCTz3dW3sOU7wrqftromXbtGXENLq8hJFgYbc595CVZATvsIibcT0ZAXg8ZBqqJUp2qkD8QDHXC5GaquhEghOaNmtZBL0rZBpTN5CMZAqLLZBFeVbwJ7s2LlI5loPNaFeltCJayXwQdCpIp89kBjEf4rsDBBLp7BL2fwHG6zJTNUgzvXGPrBTPxYkjO7p88HtI3ZCscuhjcZAWUvknTDCw85rsvkG7lnQhM5KxxAXO3QZDZD","expiresIn":"5177889","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 00:43:57.465 imin[23222:1083746] -[NSNull objectForKey:]: unrecognized selector sent to instance 0x65f6b0
+2014-10-14 00:43:57.465 imin[23222:1083746] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[NSNull objectForKey:]: unrecognized selector sent to instance 0x65f6b0
+2014-10-14 00:43:59.876 imin[23222:1083746] new permissions (
+    "public_profile"
+)
+2014-10-14 00:43:59.876 imin[23222:1083746] Graph Path = me
+2014-10-14 00:44:02.285 imin[23222:1083746] -[NSNull objectForKey:]: unrecognized selector sent to instance 0x65f6b0
+2014-10-14 00:44:02.285 imin[23222:1083746] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <NSInvalidArgumentException> -[NSNull objectForKey:]: unrecognized selector sent to instance 0x65f6b0
+2014-10-14 00:44:44.750 imin[23222:1083746] Resetting plugins due to page load.
+2014-10-14 00:44:44.910 imin[23222:1083746] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 00:44:59.248 imin[23222:1083746] Resetting plugins due to page load.
+2014-10-14 00:44:59.379 imin[23222:1083746] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 00:47:09.767 imin[23222:1083746] Resetting plugins due to page load.
+2014-10-14 00:47:09.887 imin[23222:1083746] Finished load of: http://140.233.211.103:8100/#/tab/friends
+2014-10-14 00:47:18.819 imin[23222:1083746] Resetting plugins due to page load.
+2014-10-14 00:47:18.932 imin[23222:1083746] Finished load of: http://140.233.211.103:8100/#/tab/friends
+2014-10-14 00:47:24.562 imin[23222:1083746] Resetting plugins due to page load.
+2014-10-14 00:47:24.670 imin[23222:1083746] Finished load of: http://140.233.211.103:8100/#/tab/friends
+2014-10-14 00:48:42.816 imin[23222:1083746] Resetting plugins due to page load.
+2014-10-14 00:48:42.953 imin[23222:1083746] Finished load of: http://140.233.211.103:8100/#/tab/events
+2014-10-14 00:49:03.347 imin[23222:1083746] Resetting plugins due to page load.
+2014-10-14 00:49:03.454 imin[23222:1083746] Finished load of: http://140.233.211.103:8100/#/tab/events
+2014-10-14 00:51:18.544 imin[23695:1096836] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/paolob/Library/Developer/CoreSimulator/Devices/8A772856-F61B-4566-B0DD-7E344C54A504/data/Containers/Data/Application/DB03C218-295A-45DB-9D16-C553B7E91E52/Library/Cookies/Cookies.binarycookies
+2014-10-14 00:51:18.607 imin[23695:1096836] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-14 00:51:18.607 imin[23695:1096836] Multi-tasking -> Device: YES, App: YES
+2014-10-14 00:51:18.623 imin[23695:1096836] Unlimited access to network resources
+2014-10-14 00:51:18.763 imin[23695:1096836] [CDVTimer][keyboard] 0.060976ms
+2014-10-14 00:51:18.763 imin[23695:1096836] Init FacebookConnect Session
+2014-10-14 00:51:18.767 imin[23695:1096836] [CDVTimer][facebookconnectplugin] 4.172981ms
+2014-10-14 00:51:18.767 imin[23695:1096836] [CDVTimer][TotalPluginStartup] 4.569054ms
+2014-10-14 00:51:18.927 imin[23695:1096836] Resetting plugins due to page load.
+2014-10-14 00:51:19.203 imin[23695:1096836] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 00:51:21.210 imin[23695:1096836] logging into facebook
+2014-10-14 00:51:21.237 imin[23695:1096836] THREAD WARNING: ['FacebookConnectPlugin'] took '26.910889' ms. Plugin should use a background thread.
+2014-10-14 00:51:23.134 imin[23695:1096836] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BAA01oDjN1cPqSzSgSg52bm0SFFvbs2NRNTovB62FlxcQ0WtueBHhiitw6yKWJvuZAjG4y1YpYAjZCjpKQb11zdeE97f4FZBZAc0HrgbvbrSqe4JLO79DDpRq6NIvfAqDe9xJDTarzWvQfJHIhZBSxDsxobVuZBiplaBoRSmas1QG9py0pZB6oaAqPZA5UnTuVFDceMDQZB18UhNrwZBXJHgLyPqm3th3zpcYKJBjmgRpfwGnY704iwnXZCNro1rRalZBlQZDZD","expiresIn":"5177444","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 00:51:23.257 imin[23695:1096836] THREAD WARNING: ['MapKit'] took '122.282959' ms. Plugin should use a background thread.
+2014-10-14 00:51:25.520 imin[23695:1096836] new permissions (
+    "public_profile"
+)
+2014-10-14 00:51:25.520 imin[23695:1096836] Graph Path = me
+2014-10-14 00:51:29.919 imin[23695:1096836] Trying to start MapKit location updates without prompting for location authorization. Must call -[CLLocationManager requestWhenInUseAuthorization] or -[CLLocationManager requestAlwaysAuthorization] first.
+2014-10-14 00:53:38.314 imin[23695:1096836] new event
+2014-10-14 00:55:25.067 imin[23695:1096836] Resetting plugins due to page load.
+2014-10-14 00:55:25.216 imin[23695:1096836] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 00:57:00.536 imin[23695:1096836] Resetting plugins due to page load.
+2014-10-14 00:57:00.692 imin[23695:1096836] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 00:58:12.235 imin[23695:1096836] Resetting plugins due to page load.
+2014-10-14 00:58:12.454 imin[23695:1096836] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 00:58:16.254 imin[23695:1096836] Resetting plugins due to page load.
+2014-10-14 00:58:16.444 imin[23695:1096836] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 00:59:48.576 imin[24236:1111606] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/paolob/Library/Developer/CoreSimulator/Devices/8A772856-F61B-4566-B0DD-7E344C54A504/data/Containers/Data/Application/936184B2-56E2-4C13-B228-93948BF998B7/Library/Cookies/Cookies.binarycookies
+2014-10-14 00:59:48.633 imin[24236:1111606] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-14 00:59:48.634 imin[24236:1111606] Multi-tasking -> Device: YES, App: YES
+2014-10-14 00:59:48.640 imin[24236:1111606] Unlimited access to network resources
+2014-10-14 00:59:48.722 imin[24236:1111606] [CDVTimer][keyboard] 0.056028ms
+2014-10-14 00:59:48.722 imin[24236:1111606] Init FacebookConnect Session
+2014-10-14 00:59:48.725 imin[24236:1111606] [CDVTimer][facebookconnectplugin] 2.985001ms
+2014-10-14 00:59:48.726 imin[24236:1111606] [CDVTimer][TotalPluginStartup] 3.327012ms
+2014-10-14 00:59:48.760 imin[24236:1111606] Resetting plugins due to page load.
+2014-10-14 00:59:48.975 imin[24236:1111606] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 00:59:54.126 imin[24236:1111606] logging into facebook
+2014-10-14 00:59:54.153 imin[24236:1111606] THREAD WARNING: ['FacebookConnectPlugin'] took '27.016846' ms. Plugin should use a background thread.
+2014-10-14 00:59:55.985 imin[24236:1111606] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BAHWCRGADRIWRRjE0x7iRJzwLBFZCVxqcZBaa658i4bEkMMgFypGJ1NHrQxkn8ZBgij19gpzcLOOOjQ0NOagVDFW2qUuUzbXlTzIg0pzlN0OAPEGR4k2P8azCiZATKfmBnySPiajD4cO0kn7ALqN6CUtY2d5IDQg0dv9L5BZABDfl7ZAGOnRgQ8dFACBDL1DWmbh5I9xmJgDxTcH0gJYaQcyh0ZA2ZBSf5PQDUVJwIGa8mXFZCAk7zaMYaPO3O9sddpAZDZD","expiresIn":"5176931","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 00:59:56.019 imin[24236:1111606] THREAD WARNING: ['MapKit'] took '34.340088' ms. Plugin should use a background thread.
+2014-10-14 00:59:59.365 imin[24236:1111606] new permissions (
+    "public_profile"
+)
+2014-10-14 00:59:59.365 imin[24236:1111606] Graph Path = me
+2014-10-14 01:00:00.345 imin[24236:1111606] Trying to start MapKit location updates without prompting for location authorization. Must call -[CLLocationManager requestWhenInUseAuthorization] or -[CLLocationManager requestAlwaysAuthorization] first.
+2014-10-14 01:01:49.060 imin[24236:1111606] Resetting plugins due to page load.
+2014-10-14 01:01:49.190 imin[24236:1111606] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 01:02:04.345 imin[24236:1111606] Resetting plugins due to page load.
+2014-10-14 01:02:04.488 imin[24236:1111606] Finished load of: http://140.233.211.103:8100/#/tab/friends
+2014-10-14 01:33:18.447 imin[25129:1163151] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/paolob/Library/Developer/CoreSimulator/Devices/8A772856-F61B-4566-B0DD-7E344C54A504/data/Containers/Data/Application/EF6EF5A4-4C14-48AE-9830-83473400A7B6/Library/Cookies/Cookies.binarycookies
+2014-10-14 01:33:18.490 imin[25129:1163151] Apache Cordova native platform version 3.6.3 is starting.
+2014-10-14 01:33:18.490 imin[25129:1163151] Multi-tasking -> Device: YES, App: YES
+2014-10-14 01:33:18.512 imin[25129:1163151] Unlimited access to network resources
+2014-10-14 01:33:18.902 imin[25129:1163151] [CDVTimer][keyboard] 0.065982ms
+2014-10-14 01:33:18.902 imin[25129:1163151] Init FacebookConnect Session
+2014-10-14 01:33:18.912 imin[25129:1163151] [CDVTimer][facebookconnectplugin] 10.188997ms
+2014-10-14 01:33:18.912 imin[25129:1163151] [CDVTimer][TotalPluginStartup] 10.587037ms
+2014-10-14 01:33:19.093 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:33:19.454 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 01:33:20.981 imin[25129:1163151] logging into facebook
+2014-10-14 01:33:21.015 imin[25129:1163151] THREAD WARNING: ['FacebookConnectPlugin'] took '34.111084' ms. Plugin should use a background thread.
+2014-10-14 01:33:23.435 imin[25129:1163151] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BALvImULXOxBrwjs5TgIT0W6Y3gjfx3sg1JEQjQDsO6hEVhgYEown4j48MecEGeUmwYhUvmDYA64nbX4rAZAtZCQudp7qk44garvZBmJW0NFISsYpgs6BlM8SRbIDAUzQxFy5fs21kKZC6UZCRRv9tYHYe7r2DtDZAfLw0tVwy2s8ezmfWMdxJPAZBBdbQnMRRTC6AYhkAhqbgZAuw9Li7ier7UM9l91VFZB2n8A6mNZCROAiSYqpZCIwFdAtj1NSbtwPgZDZD","expiresIn":"5174923","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 01:33:59.680 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:33:59.807 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 01:34:03.284 imin[25129:1163151] logging into facebook
+2014-10-14 01:34:05.161 imin[25129:1163151] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BAJvqYZAZBwwZBvFggUROId1IW4QmPRxS0dl6NgBYCs5InwnMiXkOunlRplZAMHxHbOBiyyYtEaJLZCiJMTUQha0ZCB5ZCnqY8eTZC5h2ZA65XCdvd9mixB8EcJ4efR5AZBHHRpagZAvIeFHwIEAYvuv0ZBZCZBReKmZC3rkhDdxYAJ99Y2eA5jHDzmfeMPfU4w35ddyAcFgziJRQePs2JSppy36ZCcRreQyWDY9sR8uoaVDRkZAygtSXZCGEX0E18LzMQIJu0ZBOgZDZD","expiresIn":"5174882","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 01:34:14.574 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:34:14.692 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 01:34:15.354 imin[25129:1163151] logging into facebook
+2014-10-14 01:34:15.368 imin[25129:1163151] THREAD WARNING: ['FacebookConnectPlugin'] took '13.701904' ms. Plugin should use a background thread.
+2014-10-14 01:34:17.219 imin[25129:1163151] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BACxNwfvYrXF0L9OoAOewlqO1vdGv5WdnF1BCoaNqk8m80DTDcxBm5vGCVaQKUPvqq5Eyhy60JqiwRtTqn5skWQcwnQN6nPtsg9nnGYa6Ijt8PbuZAiqfaV6VoHdHIpCrvltT9aC6Y5IYZAZCThC2ZCKgNxdjZBSfei56IwjzL3UF9g3Si3RAQR1f4rmixtczZCoVzt3ibZCVTTqxfZCHF862jd19ZCZC8fYLYoJozPq9JZCa8CsUow8x8EZBLKi42aW8ugZDZD","expiresIn":"5174869","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 01:35:57.289 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:35:57.400 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 01:37:35.421 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:37:35.530 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 01:37:40.249 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:37:40.344 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/login
+2014-10-14 01:37:43.913 imin[25129:1163151] logging into facebook
+2014-10-14 01:37:43.934 imin[25129:1163151] THREAD WARNING: ['FacebookConnectPlugin'] took '19.759033' ms. Plugin should use a background thread.
+2014-10-14 01:37:46.289 imin[25129:1163151] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BAEWmHXkQnbncYPpPbhXCpY2M5Gc4Rwvfz7WjhO7QYm6yjUmOR5e7z8HY8UDK2VAW2NiVmB4WRu7SIhrvhGsNAXi25R0ZCIX9ZAnpCKFdQx3ljObpKipc5OR7zyTzoZCEpdQdbUW6rqynlZBi7ZB2Xmv7GHTZAQ7LayGuBkURh0VZCq07zREggqot0lqLIZCMTF0BdFvEsZBG4oJ8pm37kGFZARqoIWGI7UDVIZBsZCMkhXmZBxz979D0nCwQJO4IhURYN7QZDZD","expiresIn":"5174660","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 01:37:47.279 imin[25129:1163151] Unable to create/login to as Facebook user
+2014-10-14 01:37:47.280 imin[25129:1163151]   ERROR1 = {"authData":{"facebook":{"id":"undefined"}}}
+2014-10-14 01:37:47.280 imin[25129:1163151]   ERROR2 = {"code":107,"message":"iso param: expected String, got NilClass"}
+2014-10-14 01:37:48.834 imin[25129:1163151] new permissions (
+    "public_profile"
+)
+2014-10-14 01:37:48.835 imin[25129:1163151] Graph Path = me
+2014-10-14 01:38:44.818 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:38:44.939 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 01:38:46.934 imin[25129:1163151] opening settings
+2014-10-14 01:38:47.817 imin[25129:1163151] logout success
+2014-10-14 01:38:49.323 imin[25129:1163151] logging into facebook
+2014-10-14 01:38:51.069 imin[25129:1163151] {"status":"connected","authResponse":{"session_key":true,"accessToken":"CAAFB5OcZCZBO8BAEeC9qQjQZCmvWRpDkKLWHVJkrIYNRZBhMQd4RKpRWWzKMUuK0v9ZBjGvwvMSt7RVyMyFC9xr0bnHWPXtjT8DiUei3haZCTebuKwr8Rgt6rpQoVdhyFHrnZBP2nW9fHl0op1JhSoXECDYPMDrRe849sXJSf0sbpfc70ziAdlm9TTFAjAw5ZANpNkrPpJY80h3kcnhTRpUXolWTNbCQ33uJTfchDztZB2gZDZD","expiresIn":"5174596","sig":"...","userID":"10154723791200402","secret":"..."}}
+2014-10-14 01:38:52.077 imin[25129:1163151] Unable to create/login to as Facebook user
+2014-10-14 01:38:52.077 imin[25129:1163151]   ERROR1 = {"authData":{"facebook":{}}}
+2014-10-14 01:38:52.077 imin[25129:1163151]   ERROR2 = {"code":107,"message":"iso param: expected String, got NilClass"}
+2014-10-14 01:38:53.452 imin[25129:1163151] new permissions (
+    "public_profile"
+)
+2014-10-14 01:38:53.452 imin[25129:1163151] Graph Path = me
+2014-10-14 01:43:14.842 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:43:14.970 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/tab/map
+2014-10-14 01:43:33.174 imin[25129:1163151] Resetting plugins due to page load.
+2014-10-14 01:43:33.287 imin[25129:1163151] Finished load of: http://140.233.211.103:8100/#/tab/map
