@@ -1,5 +1,6 @@
 angular.module('starter', [
     'ionic',
+    'ngCordova',
     'starter.services',
 
     // APP

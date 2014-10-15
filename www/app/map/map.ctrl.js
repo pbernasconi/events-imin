@@ -1,12 +1,21 @@
 angular.module('map.ctrl', [])
 
-    .controller('MapCtrl', function ($scope, $state) {
+    .controller('MapCtrl', function ($scope, $state, $cordovaGeolocation) {
 
         $scope.myLocation = "";
 
 
         $scope.getLocation = function () {
-            
+            $cordovaGeolocation
+                .getCurrentPosition()
+                .then(function (position) {
+                    var lat = position.coords.latitude;
+                    var long = position.coords.longitude;
+
+                    $scope.myLocation = position;
+                }, function (err) {
+                    // error
+                });
         };
 
 
