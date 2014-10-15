@@ -1,8 +1,9 @@
 # Ignore local node modules
 node_modules/
 
-# Ignore xcode platform
-platforms/
+# Ignore xcode platforms for ios and android
+platforms/ios
+platforms/android
 
 ## Ignore Intellij idea
 /*.iml
