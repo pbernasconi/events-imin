@@ -27,6 +27,7 @@ angular.module('app.ctrl', [])
 
         // New Event Modal
 
+        $scope.isOpenMap = false;
         $scope.eventForm = {
             name: "",
             hosts: "",
@@ -56,8 +57,7 @@ angular.module('app.ctrl', [])
         };
 
         $scope.openMap = function () {
-            console.log('opening map');
-            $state.go('newEvent.map');
+            $scope.isOpenMap = true;
         };
 
         $scope.closeEvent = function () {

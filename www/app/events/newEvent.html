@@ -1,4 +1,4 @@
-<ion-modal-view>
+<ion-modal-view >
     <ion-header-bar>
         <button class="button button-clear button-assertive" ng-click="closeEvent()">
             Cancel
@@ -9,41 +9,74 @@
         </button>
     </ion-header-bar>
     <ion-content>
-        <h2 class="padding">New Event</h2>
+        <div ng-if="isOpenMap == false">
 
-        <div class="list">
-            <label class="item item-input">
-                <span class="input-label">Name</span>
-                <input type="text" ng-model="eventForm.name">
-            </label>
 
-            <label class="item item-input">
-                <span class="input-label">Hosts</span>
-                <input type="text" ng-model="eventForm.hosts">
-            </label>
+            <h2 class="padding text-center">Create a New Event</h2>
 
-            <label class="item item-input">
-                <span class="input-label">Location</span>
+            <div class="list">
+                <label class="item item-input">
+                    <span class="input-label">Name</span>
+                    <input type="text" ng-model="eventForm.name">
+                </label>
 
-            </label>
-            <div class="button-bar padding">
-                <button class="button" ng-click="setCurrentLocation()">
-                    <i class="icon ion-ios7-location positive"></i>
-                    Here
-                </button>
-                <button class="button" ng-click="openMap()">
-                    <i class="icon ion-map energized"></i>
-                    Map
-                </button>
+                <label class="item item-input">
+                    <span class="input-label">Hosts</span>
+                    <input type="text" ng-model="eventForm.hosts">
+                </label>
+
+                <label class="item item-input">
+                    <span class="input-label">Location</span>
+
+                </label>
+
+                <div class="button-bar padding">
+                    <button class="button" ng-click="setCurrentLocation()">
+                        <i class="icon ion-ios7-location positive"></i>
+                        Here
+                    </button>
+                    <button class="button" ng-click="openMap()">
+                        <i class="icon ion-map energized"></i>
+                        Map
+                    </button>
+                </div>
+
+                <label class="item item-input">
+                    <span class="input-label">Time</span>
+                    <input type="date" ng-model="eventForm.time">
+                </label>
+
+                <button class="button button-block" ng-click="">Save</button>
+
             </div>
 
-            <label class="item item-input">
-                <span class="input-label">Time</span>
-                <input type="date" ng-model="eventForm.time">
-            </label>
+        </div>
 
-            <button class="button button-block" ng-click="">Save</button>
+        <div ng-if="isOpenMap == true">
+            <div class="list">
+
+                <div class="item item-input-inset">
+                    <label class="item-input-wrapper">
+                        <input type="text" placeholder="Email">
+                    </label>
+                    <button class="button button-small">
+                        Submit
+                    </button>
+                </div>
+            </div>
+
+            MAP
 
         </div>
     </ion-content>
+
+    <ion-footer-bar align-title="center" class="bar-assertive" ng-if="isOpenMap == true">
+        <div class="buttons">
+            <button class="button">Left Button</button>
+        </div>
+        <h1 class="title">Title!</h1>
+        <div class="buttons" ng-click="doSomething()">
+            <button class="button">Right Button</button>
+        </div>
+    </ion-footer-bar>
 </ion-modal-view>
