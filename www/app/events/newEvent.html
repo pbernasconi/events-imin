@@ -4,7 +4,7 @@
             Cancel
         </button>
         <h1 class="title">Create a new Event</h1>
-        <button class="button button-clear button-positive" ng-click="createEvent()">
+        <button class="button button-clear button-positive" ng-click="createEvent(eventForm)">
             Create
         </button>
     </ion-header-bar>
@@ -24,15 +24,25 @@
 
             <label class="item item-input">
                 <span class="input-label">Location</span>
-                <input type="text" ng-model="eventForm.location">
+
             </label>
+            <div class="button-bar padding">
+                <button class="button" ng-click="setCurrentLocation()">
+                    <i class="icon ion-ios7-location positive"></i>
+                    Here
+                </button>
+                <button class="button" ng-click="openMap()">
+                    <i class="icon ion-map energized"></i>
+                    Map
+                </button>
+            </div>
 
             <label class="item item-input">
                 <span class="input-label">Time</span>
-                <input type="text" ng-model="eventForm.time">
+                <input type="date" ng-model="eventForm.time">
             </label>
 
-            <button class="button button-block" ng-click="saveEvent(eventForm)">Save</button>
+            <button class="button button-block" ng-click="">Save</button>
 
         </div>
     </ion-content>

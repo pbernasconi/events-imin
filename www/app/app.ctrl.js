@@ -27,19 +27,14 @@ angular.module('app.ctrl', [])
 
         // New Event Modal
 
-
         $scope.eventForm = {
-            name : "",
+            name: "",
             hosts: "",
-            location : {
+            location: {
                 longitude: "",
                 latitude: ""
             },
-            time : new Date()
-        };
-
-        $scope.saveEvent = function (eventForm) {
-            console.log(eventForm);
+            time: new Date()
         };
 
         $ionicModal.fromTemplateUrl('app/events/newEvent.html', {
@@ -53,13 +48,24 @@ angular.module('app.ctrl', [])
             $scope.eventModal.show();
         };
 
+        $scope.setCurrentLocation = function () {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                $scope.eventForm.location.longitude = position.coords.longitude;
+                $scope.eventForm.location.latitude = position.coords.latitude;
+            })
+        };
 
+        $scope.openMap = function () {
+            console.log('opening map');
+            $state.go('newEvent.map');
+        };
 
         $scope.closeEvent = function () {
             $scope.eventModal.hide();
         };
 
-        $scope.createEvent = function () {
+        $scope.createEvent = function (_eventForm) {
+            console.log(_eventForm);
             console.log("event created");
             $scope.eventModal.hide();
         };

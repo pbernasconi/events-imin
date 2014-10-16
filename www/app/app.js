@@ -45,6 +45,12 @@ angular.module('starter', [
                 controller: "TabsCtrl"
             })
 
+            .state('newEvent-map', {
+                url: "/newEvent/map",
+                templateUrl: "app/events/newEventMap.html",
+                controller: "AppCtrl"
+            })
+
             .state('tab.events', {
                 url: '/events',
                 views: {
