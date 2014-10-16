@@ -38,6 +38,14 @@ angular.module('app.ctrl', [])
             time: new Date()
         };
 
+        $scope.map = {
+            center: {
+                latitude: 45,
+                longitude: -73
+            },
+            zoom: 8
+        };
+
         $ionicModal.fromTemplateUrl('app/events/newEvent.html', {
             scope: $scope,
             animation: 'slide-in-up'

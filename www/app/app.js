@@ -1,9 +1,12 @@
 angular.module('starter', [
+    // including libraries
     'ionic',
     'ngCordova',
-    'starter.services',
+    'google-maps'.ns(),
+
 
     // APP
+    'starter.services',
     'app.ctrl',
     'settings.ctrl',
     'tabs.ctrl',

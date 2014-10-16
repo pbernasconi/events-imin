@@ -53,7 +53,7 @@
         </div>
 
         <div ng-if="isOpenMap == true">
-            <div class="list">
+            <div class="list" style="margin-bottom: 0 !important;">
 
                 <div class="item item-input-inset">
                     <label class="item-input-wrapper">
@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            MAP
+            <ui-gmap-google-map center="map.center" zoom="map.zoom"></ui-gmap-google-map>
 
         </div>
     </ion-content>
