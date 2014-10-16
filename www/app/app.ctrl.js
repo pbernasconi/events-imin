@@ -27,6 +27,21 @@ angular.module('app.ctrl', [])
 
         // New Event Modal
 
+
+        $scope.eventForm = {
+            name : "",
+            hosts: "",
+            location : {
+                longitude: "",
+                latitude: ""
+            },
+            time : new Date()
+        };
+
+        $scope.saveEvent = function (eventForm) {
+            console.log(eventForm);
+        };
+
         $ionicModal.fromTemplateUrl('app/events/newEvent.html', {
             scope: $scope,
             animation: 'slide-in-up'
@@ -37,6 +52,8 @@ angular.module('app.ctrl', [])
             console.log('new event');
             $scope.eventModal.show();
         };
+
+
 
         $scope.closeEvent = function () {
             $scope.eventModal.hide();

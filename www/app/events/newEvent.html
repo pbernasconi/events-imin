@@ -14,23 +14,25 @@
         <div class="list">
             <label class="item item-input">
                 <span class="input-label">Name</span>
-                <input type="text">
+                <input type="text" ng-model="eventForm.name">
             </label>
 
             <label class="item item-input">
                 <span class="input-label">Hosts</span>
-                <input type="text">
+                <input type="text" ng-model="eventForm.hosts">
             </label>
 
             <label class="item item-input">
                 <span class="input-label">Location</span>
-                <input type="text">
+                <input type="text" ng-model="eventForm.location">
             </label>
 
             <label class="item item-input">
                 <span class="input-label">Time</span>
-                <input type="text">
+                <input type="text" ng-model="eventForm.time">
             </label>
+
+            <button class="button button-block" ng-click="saveEvent(eventForm)">Save</button>
 
         </div>
     </ion-content>
