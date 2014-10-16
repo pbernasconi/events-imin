@@ -5,7 +5,9 @@
 
         <button class="button button-block button-assertive" ng-click="getLocation()"> Get current Location</button>
 
-        <p>{{myLocation}}</p>
+        <p>{{myLocation.coords.latitude}}</p>
+        <p>{{myLocation.coords.longitude}}</p>
+
 
 
     </ion-content>
