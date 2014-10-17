@@ -1,12 +1,19 @@
+<ion-header-bar class="bar-subheader" style="padding: 0 !important;">
+    <div class="item item-input-inset">
+        <label class="item-input-wrapper">
+            <input type="text" placeholder="filter" ng-model="filterFriends">
+        </label>
+    </div>
+</ion-header-bar>
 <ion-view title="Friends">
+
+
+
     <ion-content>
 
         <ion-list>
-            <div class="item item-input-inset">
-                <label class="item-input-wrapper">
-                    <input type="text" placeholder="filter" ng-model="filterFriends">
-                </label>
-            </div>
+
+
             <a ng-repeat="friend in friends.data | orderBy : 'name' | filter: filterFriends" class="item item-avatar">
                 <img src="{{friend.picture.data.url}}">
 
