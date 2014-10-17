@@ -29,6 +29,10 @@ angular.module('starter', [
                 StatusBar.styleDefault();
             }
         });
+
+        if (!window.cordova) {
+            facebookConnectPlugin.browserInit(353926364788975);
+        }
     })
 
     .config(function ($stateProvider, $urlRouterProvider) {
