@@ -5,12 +5,12 @@ angular.module('login.ctrl', [])
         $scope.loginFB = function () {
             console.log("logging into facebook");
 
-            AuthService.login(["public_profile"]).then(function (result) {
+            AuthService.login(["public_profile", "user_friends"]).then(function (result) {
                 console.log(JSON.stringify(result));
                 $rootScope.authenticated = true;
                 $rootScope.userID = result.userID;
 
-                AuthService.api("me", ["public_profile"]).then(function (result) {
+                AuthService.api("me", null).then(function (result) {
                     $rootScope.currentUser = result;
                 });
 

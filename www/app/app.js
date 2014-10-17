@@ -6,7 +6,6 @@ angular.module('starter', [
 
 
     // APP
-    'starter.services',
     'app.ctrl',
     'settings.ctrl',
     'tabs.ctrl',
