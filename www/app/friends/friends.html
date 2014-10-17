@@ -15,7 +15,7 @@
 
 
             <a ng-repeat="friend in friends.data | orderBy : 'name' | filter: filterFriends" class="item item-avatar">
-                <img src="{{friend.picture.data.url}}">
+                <img ng-src="{{friend.picture.data.url}}">
 
                 <h2>{{friend.name}}</h2>
 
